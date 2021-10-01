@@ -1,0 +1,15 @@
+.header-cont{
+  width: 100%;
+  display: block;
+  height: 120px;
+  max-height: 120px;
+  background-color: #0c1569;
+  color: white;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
+}
+.header-cont .content{
+  padding: 40px 15px;
+}
+.header-cont .content h1{
+  margin: 0;
+}

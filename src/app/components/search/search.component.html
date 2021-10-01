@@ -1,0 +1,20 @@
+<div class="search-cont">
+  <div class="search-box-cont">
+    <div class="search-title-cont">
+      <h2>Enter a Destination...</h2>
+    </div>
+    <div class="search-box">
+      <input class="search-input" type="text" name="inputSearch" id="input-search"
+        placeholder="Mountains, Pizza, Chicago...">
+    </div>
+  </div>
+  <div class="results-cont">
+    <div class="result-cont" *ngFor="let result of results">
+      <h3>{{ result.title }}</h3>
+      <p>{{result.type}}</p>
+      <p>{{result.address}}</p>
+      <p>Reviews: {{result.reviews}}</p>
+    </div>
+  </div>
+
+</div>
