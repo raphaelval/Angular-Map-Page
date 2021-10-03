@@ -24,6 +24,60 @@ export class SearchComponent implements OnInit {
       type: "Restaurant",
       address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
       reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
+    },
+    {
+      title: "Oliv Pit",
+      type: "Restaurant",
+      address: "3321 Palmetto Park Blvd, Boca Raton, FL, 33432",
+      reviews: "76"
     }]
   }
 
