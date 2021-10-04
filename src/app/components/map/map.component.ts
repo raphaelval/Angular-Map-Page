@@ -9,6 +9,7 @@ import { config } from './../../../config';
 })
 export class MapComponent implements OnInit {
 
+
   constructor() {
 
   }
@@ -18,12 +19,34 @@ export class MapComponent implements OnInit {
     let loader = new Loader({
       apiKey: config.MY_API_KEY
     })
+
+    let lat: number;
+    let lon: number;
+
+
+    navigator.geolocation.getCurrentPosition((position) => {
+      console.log("Got position", position.coords);
+      lat = position.coords.latitude;
+      lon = position.coords.longitude;
+    });
+
+
+
+
     loader.load().then(() => {
+
       new google.maps.Map(document.getElementById("map") as HTMLElement, {
-        center: { lat: -34.397, lng: 150.644 },
-        zoom: 8,
+        center: { lat: 40.7128, lng: -74.0060 },
+        zoom: 15,
+        fullscreenControl: false,
+        rotateControl: false,
+        streetViewControl: false,
+        scaleControl: false
       });
     });
+
+
+
 
   }
 

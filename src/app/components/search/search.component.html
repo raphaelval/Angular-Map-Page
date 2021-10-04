@@ -6,8 +6,10 @@
     <div class="search-box">
       <input class="search-input" type="text" name="inputSearch" id="input-search"
         placeholder="Mountains, Pizza, Chicago...">
-      <i class="fas fa-search"></i>
+      <i class="fas fa-search" title="Search"></i>
+      <i class="fas fa-map-marker-alt" (click)="getLocation()" title="Get current location"></i>
     </div>
+
   </div>
   <div class="results-cont">
     <div class="result-cont" *ngFor="let result of results">

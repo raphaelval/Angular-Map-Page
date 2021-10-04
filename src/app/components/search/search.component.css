@@ -9,6 +9,14 @@
   height: 150px;
   width: 100%;
 }
+.search-box .fa-map-marker-alt {
+  margin-right: -35px;
+  font-size: 20pt;
+  color: #0c1569;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+}
 .search-title-cont{
   display: block;
   width: 75%;
@@ -29,7 +37,7 @@
   margin-bottom: 40px;
 }
 .search-box .fa-search {
-  margin-right: 10px;
+  margin-right: 25px;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
